@@ -6,7 +6,7 @@ _unity_make()
   COMPREPLY=()
   cur="${COMP_WORDS[COMP_CWORD]}"
   prev="${COMP_WORDS[COMP_CWORD]}"
-  opts="unity-help unity-test unity-add unity-create unity-coverage"
+  opts="unity-help unity-test unity-add unity-create unity-clean unity-coverage"
 
   # Only autocomplete if we think we're under MY19 repository
   if [[ $PWD != *"MY19"* ]]; then
